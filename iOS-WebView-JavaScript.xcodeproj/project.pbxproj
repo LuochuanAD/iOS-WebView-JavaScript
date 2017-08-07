@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80C3FCA71F38070400D03D06 /* JSAndUIWebViewInteractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C3FCA61F38070400D03D06 /* JSAndUIWebViewInteractionViewController.m */; };
+		80C3FCA91F383DF000D03D06 /* jquery-3.2.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 80C3FCA81F383DF000D03D06 /* jquery-3.2.1.min.js */; };
+		80C3FCAB1F383DF400D03D06 /* total.html in Resources */ = {isa = PBXBuildFile; fileRef = 80C3FCAA1F383DF400D03D06 /* total.html */; };
+		80C3FCAF1F38455600D03D06 /* TestPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C3FCAD1F38455600D03D06 /* TestPushViewController.m */; };
 		A2CB2E471CBA44B3003919C0 /* UIWebViewJS.html in Resources */ = {isa = PBXBuildFile; fileRef = A2CB2E3F1CBA44B3003919C0 /* UIWebViewJS.html */; };
 		A2CB2E481CBA44B3003919C0 /* UIWebViewJS_file.html in Resources */ = {isa = PBXBuildFile; fileRef = A2CB2E401CBA44B3003919C0 /* UIWebViewJS_file.html */; };
 		A2CB2E491CBA44B3003919C0 /* light_advice.png in Resources */ = {isa = PBXBuildFile; fileRef = A2CB2E411CBA44B3003919C0 /* light_advice.png */; };
@@ -53,6 +57,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		80C3FCA51F38070400D03D06 /* JSAndUIWebViewInteractionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSAndUIWebViewInteractionViewController.h; sourceTree = "<group>"; };
+		80C3FCA61F38070400D03D06 /* JSAndUIWebViewInteractionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSAndUIWebViewInteractionViewController.m; sourceTree = "<group>"; };
+		80C3FCA81F383DF000D03D06 /* jquery-3.2.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-3.2.1.min.js"; sourceTree = "<group>"; };
+		80C3FCAA1F383DF400D03D06 /* total.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = total.html; sourceTree = "<group>"; };
+		80C3FCAC1F38455600D03D06 /* TestPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPushViewController.h; sourceTree = "<group>"; };
+		80C3FCAD1F38455600D03D06 /* TestPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPushViewController.m; sourceTree = "<group>"; };
 		A2CB2E3F1CBA44B3003919C0 /* UIWebViewJS.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = UIWebViewJS.html; sourceTree = "<group>"; };
 		A2CB2E401CBA44B3003919C0 /* UIWebViewJS_file.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = UIWebViewJS_file.html; sourceTree = "<group>"; };
 		A2CB2E411CBA44B3003919C0 /* light_advice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_advice.png; sourceTree = "<group>"; };
@@ -128,6 +138,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80C3FCA41F38058400D03D06 /* TrueExample */ = {
+			isa = PBXGroup;
+			children = (
+				80C3FCAA1F383DF400D03D06 /* total.html */,
+				80C3FCA81F383DF000D03D06 /* jquery-3.2.1.min.js */,
+				80C3FCA51F38070400D03D06 /* JSAndUIWebViewInteractionViewController.h */,
+				80C3FCA61F38070400D03D06 /* JSAndUIWebViewInteractionViewController.m */,
+				80C3FCAC1F38455600D03D06 /* TestPushViewController.h */,
+				80C3FCAD1F38455600D03D06 /* TestPushViewController.m */,
+			);
+			path = TrueExample;
+			sourceTree = "<group>";
+		};
 		A2CB2E3E1CBA44B3003919C0 /* UIWebView */ = {
 			isa = PBXGroup;
 			children = (
@@ -286,6 +309,7 @@
 		A2E71E10197F911B0055B687 /* iOS-WebView-JavaScript */ = {
 			isa = PBXGroup;
 			children = (
+				80C3FCA41F38058400D03D06 /* TrueExample */,
 				A2CB2E7B1CBA7178003919C0 /* JavaScriptCore */,
 				A2CB2E4E1CBA44BE003919C0 /* WKWebView */,
 				A2CB2E3E1CBA44B3003919C0 /* UIWebView */,
@@ -297,8 +321,7 @@
 				A2E71E1C197F911B0055B687 /* Images.xcassets */,
 				A2E71E11197F911B0055B687 /* Supporting Files */,
 			);
-			name = "iOS-WebView-JavaScript";
-			path = iOS-WebView-JavaScript;
+			path = "iOS-WebView-JavaScript";
 			sourceTree = "<group>";
 		};
 		A2E71E11197F911B0055B687 /* Supporting Files */ = {
@@ -329,7 +352,7 @@
 			dependencies = (
 			);
 			name = "iOS-WebView-JavaScript";
-			productName = iOS-WebView-JavaScript;
+			productName = "iOS-WebView-JavaScript";
 			productReference = A2E71E07197F911B0055B687 /* iOS-WebView-JavaScript.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -375,6 +398,7 @@
 				A2E71E15197F911B0055B687 /* InfoPlist.strings in Resources */,
 				A2CB2E621CBA49CC003919C0 /* WKWebViewJS.html in Resources */,
 				A2CB2E781CBA64E4003919C0 /* JSUIWebView.html in Resources */,
+				80C3FCAB1F383DF400D03D06 /* total.html in Resources */,
 				A2CB2E471CBA44B3003919C0 /* UIWebViewJS.html in Resources */,
 				A2CB2E531CBA44F9003919C0 /* RootViewController.xib in Resources */,
 				A2CB2E971CBA7196003919C0 /* test.js in Resources */,
@@ -391,6 +415,7 @@
 				A2CB2E931CBA7184003919C0 /* JSCallOCViewController.xib in Resources */,
 				A2E71E1D197F911B0055B687 /* Images.xcassets in Resources */,
 				A2CB2E901CBA7184003919C0 /* jquery-1.11.0.min.js in Resources */,
+				80C3FCA91F383DF000D03D06 /* jquery-3.2.1.min.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,12 +430,14 @@
 				A2CB2E4C1CBA44B3003919C0 /* UIWebViewJSViewController.m in Sources */,
 				A2CB2E521CBA44F9003919C0 /* RootViewController.m in Sources */,
 				A2E71E1B197F911B0055B687 /* AppDelegate.m in Sources */,
+				80C3FCAF1F38455600D03D06 /* TestPushViewController.m in Sources */,
 				A2CB2E921CBA7184003919C0 /* JSCallOCViewController.m in Sources */,
 				A2CB2E6A1CBA6198003919C0 /* JSWKWebViewViewController.m in Sources */,
 				A2CB2E941CBA7184003919C0 /* OCCallJSViewController.m in Sources */,
 				A2CB2E741CBA6248003919C0 /* WebView+Alert.m in Sources */,
 				A2CB2E8E1CBA7184003919C0 /* HighchartsWebViewController.m in Sources */,
 				A2E71E17197F911B0055B687 /* main.m in Sources */,
+				80C3FCA71F38070400D03D06 /* JSAndUIWebViewInteractionViewController.m in Sources */,
 				A2CB2E591CBA4683003919C0 /* WKWebViewJSViewController.m in Sources */,
 				A2CB2E6F1CBA61A8003919C0 /* JSUIWebViewViewController.m in Sources */,
 			);

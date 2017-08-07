@@ -16,7 +16,7 @@
 #import "JSCallOCViewController.h"
 #import "OCCallJSViewController.h"
 #import "HighchartsWebViewController.h"
-
+#import "JSAndUIWebViewInteractionViewController.h"
 @interface RootViewController ()
 
 @end
@@ -80,4 +80,11 @@
     HighchartsWebViewController *highchartsWeb =[[HighchartsWebViewController alloc]init];
     [self.navigationController pushViewController:highchartsWeb animated:YES];
 }
+//项目实例
+- (IBAction)extraExample:(id)sender{
+    JSAndUIWebViewInteractionViewController *vc=[[JSAndUIWebViewInteractionViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
+
+}
+
 @end
